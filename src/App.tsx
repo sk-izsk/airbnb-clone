@@ -2,7 +2,7 @@ import { Box, makeStyles } from '@material-ui/core';
 import React, { Suspense } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import { AppProvider } from './AppProvider';
-import { Header, LoadingScreen } from './components';
+import { Footer, Header, LoadingScreen } from './components';
 import { HomeScreen } from './lazyComponents';
 import { CustomTheme } from './theme/muiTheme';
 
@@ -26,6 +26,7 @@ const App: React.FC<AppProps> = () => {
             <Route path='/home' exact component={HomeScreen} />
           </Suspense>
         </Switch>
+        <Footer />
       </Box>
     </AppProvider>
   );
