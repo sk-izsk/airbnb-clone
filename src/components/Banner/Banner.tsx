@@ -44,6 +44,9 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
     fontWeight: 900,
     textTransform: 'inherit',
     color: '#ff7779',
+    '&:hover': {
+      border: 'none',
+    },
   },
 }));
 
