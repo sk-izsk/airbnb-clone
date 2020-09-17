@@ -47,7 +47,6 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
     color: 'white',
     backgroundColor: '#ff7779',
     width: theme.spacing(69.75),
-
     '&hover': {
       backgroundColor: 'white',
       color: '#ff7779',
