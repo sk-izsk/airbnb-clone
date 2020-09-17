@@ -2,8 +2,7 @@ import { Box, makeStyles } from '@material-ui/core';
 import React, { Suspense } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import { AppProvider } from './AppProvider';
-import { LoadingScreen } from './components';
-import { Header } from './components/Header/Header';
+import { Header, LoadingScreen } from './components';
 import { HomeScreen } from './lazyComponents';
 import { CustomTheme } from './theme/muiTheme';
 

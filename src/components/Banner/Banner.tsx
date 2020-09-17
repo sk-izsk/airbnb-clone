@@ -1,6 +1,7 @@
 import { Box, Button, makeStyles, Typography } from '@material-ui/core';
-import React from 'react';
+import React, { useState } from 'react';
 import { CustomTheme } from '../../theme/muiTheme';
+import { Search } from '../Search/Search';
 
 export interface BannerProps {}
 
@@ -18,12 +19,13 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
     paddingRight: theme.spacing(6.25),
     paddingBottom: theme.spacing(5),
     width: theme.spacing(43.5),
+    height: theme.spacing(54),
   },
   exploreBtn: {
     backgroundColor: '#ff7779',
     color: 'white',
     textTransform: 'inherit',
-    marginTop: theme.spacing(2.375),
+    marginTop: theme.spacing(1.25),
     fontWeight: 600,
     '&:hover': {
       backgroundColor: 'white',
@@ -33,12 +35,34 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
   text: {
     marginTop: theme.spacing(1.25),
   },
+  bannerSearch: {
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  bannerSearchButton: {
+    backgroundColor: 'white',
+    fontWeight: 900,
+    textTransform: 'inherit',
+    color: '#ff7779',
+  },
 }));
 
 const Banner: React.FC<BannerProps> = () => {
   const classes = useStyles();
+  const [showSearch, setShowSearch] = useState<boolean>(false);
+
+  const handleDates = () => {
+    setShowSearch(!showSearch);
+  };
+
   return (
     <Box className={classes.banner}>
+      <Box className={classes.bannerSearch}>
+        {showSearch && <Search />}
+        <Button onClick={handleDates} variant='outlined' className={classes.bannerSearchButton}>
+          Search Dates
+        </Button>
+      </Box>
       <Box className={classes.bannerInfo}>
         <Typography variant='h3'>Get out and stretch your imagination</Typography>
         <Typography className={classes.text} variant='h5'>
