@@ -8,8 +8,10 @@ export interface HomeProps {}
 const useStyles = makeStyles((theme: CustomTheme) => ({
   home: {},
   homeSection: {
-    display: 'flex',
+    display: 'grid',
     padding: theme.spacing(3.75),
+    gridTemplateColumns: '1fr 1fr 1fr',
+    gridTemplateRows: '1fr 1fr',
   },
 }));
 
@@ -34,8 +36,6 @@ const Home: React.FC<HomeProps> = () => {
           title='Entire homes'
           description='Comfortable private places, with room for friends or family.'
         />
-      </Box>
-      <Box className={classes.homeSection}>
         <Card
           src='https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg'
           title='3 Bedroom Flat in Bournemouth'
