@@ -36,7 +36,7 @@ export interface CustomTheme extends Theme {
 let muiTheme: Theme = createMuiTheme({
   palette: {
     background: {
-      default: '#F8F9F9',
+      default: 'white',
     },
     error: {
       light: colors.redLight,
