@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-3 makeStyles-home-1"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-10 makeStyles-banner-4"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-11 makeStyles-bannerSearch-8"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-bannerSearchButton-9"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Search Dates
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-12 makeStyles-bannerInfo-5"
+      >
+        <h3
+          class="MuiTypography-root MuiTypography-h3"
+        >
+          Get out and stretch your imagination
+        </h3>
+        <h5
+          class="MuiTypography-root makeStyles-text-7 MuiTypography-h5"
+        >
+          Plan a different kind of gateway to uncover the hidden gems near you
+        </h5>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-exploreBtn-6"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Explore Nearby
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-13 makeStyles-homeSection-2"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-19 makeStyles-card-14"
+      >
+        <img
+          alt=""
+          class="makeStyles-cardImg-17"
+          src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
+        />
+        <div
+          class="MuiBox-root MuiBox-root-20 makeStyles-cardInfo-15"
+        >
+          <h3
+            class="MuiTypography-root makeStyles-title-18 MuiTypography-h3"
+          >
+            Online Experiences
+          </h3>
+          <p
+            class="MuiTypography-root makeStyles-description-16 MuiTypography-body1"
+          >
+            Unique activities we can do together, led by a world of hosts.
+          </p>
+          <h5
+            class="MuiTypography-root MuiTypography-h5"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-21 makeStyles-card-14"
+      >
+        <img
+          alt=""
+          class="makeStyles-cardImg-17"
+          src="https://a0.muscache.com/im/pictures/15159c9c-9cf1-400e-b809-4e13f286fa38.jpg?im_w=720"
+        />
+        <div
+          class="MuiBox-root MuiBox-root-22 makeStyles-cardInfo-15"
+        >
+          <h3
+            class="MuiTypography-root makeStyles-title-18 MuiTypography-h3"
+          >
+            Unique stays
+          </h3>
+          <p
+            class="MuiTypography-root makeStyles-description-16 MuiTypography-body1"
+          >
+            Spaces that are more than just a place to sleep.
+          </p>
+          <h5
+            class="MuiTypography-root MuiTypography-h5"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-23 makeStyles-card-14"
+      >
+        <img
+          alt=""
+          class="makeStyles-cardImg-17"
+          src="https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720"
+        />
+        <div
+          class="MuiBox-root MuiBox-root-24 makeStyles-cardInfo-15"
+        >
+          <h3
+            class="MuiTypography-root makeStyles-title-18 MuiTypography-h3"
+          >
+            Entire homes
+          </h3>
+          <p
+            class="MuiTypography-root makeStyles-description-16 MuiTypography-body1"
+          >
+            Comfortable private places, with room for friends or family.
+          </p>
+          <h5
+            class="MuiTypography-root MuiTypography-h5"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-25 makeStyles-card-14"
+      >
+        <img
+          alt=""
+          class="makeStyles-cardImg-17"
+          src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
+        />
+        <div
+          class="MuiBox-root MuiBox-root-26 makeStyles-cardInfo-15"
+        >
+          <h3
+            class="MuiTypography-root makeStyles-title-18 MuiTypography-h3"
+          >
+            3 Bedroom Flat in Bournemouth
+          </h3>
+          <p
+            class="MuiTypography-root makeStyles-description-16 MuiTypography-body1"
+          >
+            Superhost with a stunning view of the beachside in Sunny Bournemouth
+          </p>
+          <h5
+            class="MuiTypography-root MuiTypography-h5"
+          >
+            £130/night
+          </h5>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-27 makeStyles-card-14"
+      >
+        <img
+          alt=""
+          class="makeStyles-cardImg-17"
+          src="https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg"
+        />
+        <div
+          class="MuiBox-root MuiBox-root-28 makeStyles-cardInfo-15"
+        >
+          <h3
+            class="MuiTypography-root makeStyles-title-18 MuiTypography-h3"
+          >
+            Penthouse in London
+          </h3>
+          <p
+            class="MuiTypography-root makeStyles-description-16 MuiTypography-body1"
+          >
+            Enjoy the amazing sights of London with this stunning penthouse
+          </p>
+          <h5
+            class="MuiTypography-root MuiTypography-h5"
+          >
+            £350/night
+          </h5>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root-29 makeStyles-card-14"
+      >
+        <img
+          alt=""
+          class="makeStyles-cardImg-17"
+          src="https://media.nomadicmatt.com/2018/apartment.jpg"
+        />
+        <div
+          class="MuiBox-root MuiBox-root-30 makeStyles-cardInfo-15"
+        >
+          <h3
+            class="MuiTypography-root makeStyles-title-18 MuiTypography-h3"
+          >
+            1 Bedroom apartment
+          </h3>
+          <p
+            class="MuiTypography-root makeStyles-description-16 MuiTypography-body1"
+          >
+            Superhost with great amenities and a fabolous shopping complex nearby
+          </p>
+          <h5
+            class="MuiTypography-root MuiTypography-h5"
+          >
+            £70/night
+          </h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

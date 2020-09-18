@@ -1,0 +1,787 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchPage renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-6 makeStyles-searchPage-1"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-7 makeStyles-searchPageInfo-2"
+    >
+      <p
+        class="MuiTypography-root makeStyles-searchPageText-5 MuiTypography-body1"
+      >
+        62 stays · 26 august to 30 august · 2 guest
+      </p>
+      <h3
+        class="MuiTypography-root makeStyles-searchPageTitle-4 MuiTypography-h3"
+      >
+        Stays nearby
+      </h3>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-searchPageButton-3"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Stays nearby
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-searchPageButton-3"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Cancellation Flexibility
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-searchPageButton-3"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Type of place
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-searchPageButton-3"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Price
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-searchPageButton-3"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Rooms and beds
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-searchPageButton-3"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          More filters
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-20 makeStyles-searchResult-8"
+    >
+      <img
+        alt=""
+        class="makeStyles-img-9"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU"
+      />
+      <svg
+        class="makeStyles-searchResultHeart-10"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1,8.4 C1,4 4.5,3 6.5,3 C9,3 11,5 12,6.5 C13,5 15,3 17.5,3 C19.5,3 23,4 23,8.4 C23,15 12,21 12,21 C12,21 1,15 1,8.4 Z"
+          fill="none"
+          stroke="#000"
+          stroke-width="2"
+        />
+      </svg>
+      <div
+        class="MuiBox-root MuiBox-root-21 makeStyles-searchResultInfo-11"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-22 makeStyles-searchResultInfoTop-12"
+        >
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            Private room in center of London
+          </p>
+          <h4
+            class="MuiTypography-root makeStyles-title-17 MuiTypography-h4"
+          >
+            Stay at this spacious Edwardian House
+          </h4>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            ______
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            1 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-23 makeStyles-searchResultInfoBottom-13"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-24 makeStyles-searchResultStars-14"
+          >
+            <svg
+              class="makeStyles-searchResultStar-15"
+              color="#ff7779"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(255, 119, 121);"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              4.73
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-25 makeStyles-searchResultsPrice-16"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3"
+            >
+              £30 / night
+            </h3>
+            <p
+              class="MuiTypography-root makeStyles-total-19 MuiTypography-body1"
+            >
+              £117 total
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-26 makeStyles-searchResult-8"
+    >
+      <img
+        alt=""
+        class="makeStyles-img-9"
+        src="https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg"
+      />
+      <svg
+        class="makeStyles-searchResultHeart-10"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1,8.4 C1,4 4.5,3 6.5,3 C9,3 11,5 12,6.5 C13,5 15,3 17.5,3 C19.5,3 23,4 23,8.4 C23,15 12,21 12,21 C12,21 1,15 1,8.4 Z"
+          fill="none"
+          stroke="#000"
+          stroke-width="2"
+        />
+      </svg>
+      <div
+        class="MuiBox-root MuiBox-root-27 makeStyles-searchResultInfo-11"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-28 makeStyles-searchResultInfoTop-12"
+        >
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            Private room in center of London
+          </p>
+          <h4
+            class="MuiTypography-root makeStyles-title-17 MuiTypography-h4"
+          >
+            Independant luxury studio apartment
+          </h4>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            ______
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            2 guest · 3 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-29 makeStyles-searchResultInfoBottom-13"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-30 makeStyles-searchResultStars-14"
+          >
+            <svg
+              class="makeStyles-searchResultStar-15"
+              color="#ff7779"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(255, 119, 121);"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              4.3
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-31 makeStyles-searchResultsPrice-16"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3"
+            >
+              £40 / night
+            </h3>
+            <p
+              class="MuiTypography-root makeStyles-total-19 MuiTypography-body1"
+            >
+              £157 total
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-32 makeStyles-searchResult-8"
+    >
+      <img
+        alt=""
+        class="makeStyles-img-9"
+        src="https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg"
+      />
+      <svg
+        class="makeStyles-searchResultHeart-10"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1,8.4 C1,4 4.5,3 6.5,3 C9,3 11,5 12,6.5 C13,5 15,3 17.5,3 C19.5,3 23,4 23,8.4 C23,15 12,21 12,21 C12,21 1,15 1,8.4 Z"
+          fill="none"
+          stroke="#000"
+          stroke-width="2"
+        />
+      </svg>
+      <div
+        class="MuiBox-root MuiBox-root-33 makeStyles-searchResultInfo-11"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-34 makeStyles-searchResultInfoTop-12"
+        >
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            Private room in center of London
+          </p>
+          <h4
+            class="MuiTypography-root makeStyles-title-17 MuiTypography-h4"
+          >
+            London Studio Apartments
+          </h4>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            ______
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            4 guest · 4 bedroom · 4 bed · 2 bathrooms · Free parking · Washing Machine
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-35 makeStyles-searchResultInfoBottom-13"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-36 makeStyles-searchResultStars-14"
+          >
+            <svg
+              class="makeStyles-searchResultStar-15"
+              color="#ff7779"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(255, 119, 121);"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              3.8
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-37 makeStyles-searchResultsPrice-16"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3"
+            >
+              £35 / night
+            </h3>
+            <p
+              class="MuiTypography-root makeStyles-total-19 MuiTypography-body1"
+            >
+              £207 total
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-38 makeStyles-searchResult-8"
+    >
+      <img
+        alt=""
+        class="makeStyles-img-9"
+        src="https://cdn.bisnow.net/fit?height=489&type=jpeg&url=https%3A%2F%2Fs3.amazonaws.com%2Fcdn.bisnow.net%2Fcontent%2Fimages%2F2017%2F05%2F59151d0978bbf_https_press_atairbnb_com_app_uploads_2016_12_midtown_4.jpeg&width=717&sign=FeltIPi9cOWA36nVIeDvZxwgtiCZrpUyMRdvyZviTUI"
+      />
+      <svg
+        class="makeStyles-searchResultHeart-10"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1,8.4 C1,4 4.5,3 6.5,3 C9,3 11,5 12,6.5 C13,5 15,3 17.5,3 C19.5,3 23,4 23,8.4 C23,15 12,21 12,21 C12,21 1,15 1,8.4 Z"
+          fill="none"
+          stroke="#000"
+          stroke-width="2"
+        />
+      </svg>
+      <div
+        class="MuiBox-root MuiBox-root-39 makeStyles-searchResultInfo-11"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-40 makeStyles-searchResultInfoTop-12"
+        >
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            Private room in center of London
+          </p>
+          <h4
+            class="MuiTypography-root makeStyles-title-17 MuiTypography-h4"
+          >
+            30 mins to Oxford Street, Excel London
+          </h4>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            ______
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            1 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-41 makeStyles-searchResultInfoBottom-13"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-42 makeStyles-searchResultStars-14"
+          >
+            <svg
+              class="makeStyles-searchResultStar-15"
+              color="#ff7779"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(255, 119, 121);"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              4.1
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-43 makeStyles-searchResultsPrice-16"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3"
+            >
+              £55 / night
+            </h3>
+            <p
+              class="MuiTypography-root makeStyles-total-19 MuiTypography-body1"
+            >
+              £320 total
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-44 makeStyles-searchResult-8"
+    >
+      <img
+        alt=""
+        class="makeStyles-img-9"
+        src="https://media.cntraveler.com/photos/5a8f258bd363c34048b35aac/master/w_2250,h_1500,c_limit/airbnb-plus-london.jpg"
+      />
+      <svg
+        class="makeStyles-searchResultHeart-10"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1,8.4 C1,4 4.5,3 6.5,3 C9,3 11,5 12,6.5 C13,5 15,3 17.5,3 C19.5,3 23,4 23,8.4 C23,15 12,21 12,21 C12,21 1,15 1,8.4 Z"
+          fill="none"
+          stroke="#000"
+          stroke-width="2"
+        />
+      </svg>
+      <div
+        class="MuiBox-root MuiBox-root-45 makeStyles-searchResultInfo-11"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-46 makeStyles-searchResultInfoTop-12"
+        >
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            Private room in center of London
+          </p>
+          <h4
+            class="MuiTypography-root makeStyles-title-17 MuiTypography-h4"
+          >
+            Spacious Peaceful Modern Bedroom
+          </h4>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            ______
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            3 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Free parking · Dry Cleaning
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-47 makeStyles-searchResultInfoBottom-13"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-48 makeStyles-searchResultStars-14"
+          >
+            <svg
+              class="makeStyles-searchResultStar-15"
+              color="#ff7779"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(255, 119, 121);"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              5
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-49 makeStyles-searchResultsPrice-16"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3"
+            >
+              £60 / night
+            </h3>
+            <p
+              class="MuiTypography-root makeStyles-total-19 MuiTypography-body1"
+            >
+              £450 total
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-50 makeStyles-searchResult-8"
+    >
+      <img
+        alt=""
+        class="makeStyles-img-9"
+        src="https://static.trip101.com/paragraph_media/pictures/001/676/061/large/969ae4bb-efd1-4fb9-a4e3-5cb3316dd3c9.jpg?1562227937"
+      />
+      <svg
+        class="makeStyles-searchResultHeart-10"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1,8.4 C1,4 4.5,3 6.5,3 C9,3 11,5 12,6.5 C13,5 15,3 17.5,3 C19.5,3 23,4 23,8.4 C23,15 12,21 12,21 C12,21 1,15 1,8.4 Z"
+          fill="none"
+          stroke="#000"
+          stroke-width="2"
+        />
+      </svg>
+      <div
+        class="MuiBox-root MuiBox-root-51 makeStyles-searchResultInfo-11"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-52 makeStyles-searchResultInfoTop-12"
+        >
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            Private room in center of London
+          </p>
+          <h4
+            class="MuiTypography-root makeStyles-title-17 MuiTypography-h4"
+          >
+            The Blue Room In London
+          </h4>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            ______
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            2 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Washing Machine
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-53 makeStyles-searchResultInfoBottom-13"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-54 makeStyles-searchResultStars-14"
+          >
+            <svg
+              class="makeStyles-searchResultStar-15"
+              color="#ff7779"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(255, 119, 121);"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              4.23
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-55 makeStyles-searchResultsPrice-16"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3"
+            >
+              £65 / night
+            </h3>
+            <p
+              class="MuiTypography-root makeStyles-total-19 MuiTypography-body1"
+            >
+              £480 total
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-56 makeStyles-searchResult-8"
+    >
+      <img
+        alt=""
+        class="makeStyles-img-9"
+        src="https://image.insider.com/585029a0dd0895bc548b4b8b?width=750&format=jpeg&auto=webp"
+      />
+      <svg
+        class="makeStyles-searchResultHeart-10"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1,8.4 C1,4 4.5,3 6.5,3 C9,3 11,5 12,6.5 C13,5 15,3 17.5,3 C19.5,3 23,4 23,8.4 C23,15 12,21 12,21 C12,21 1,15 1,8.4 Z"
+          fill="none"
+          stroke="#000"
+          stroke-width="2"
+        />
+      </svg>
+      <div
+        class="MuiBox-root MuiBox-root-57 makeStyles-searchResultInfo-11"
+      >
+        <div
+          class="MuiBox-root MuiBox-root-58 makeStyles-searchResultInfoTop-12"
+        >
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            Private room in center of London
+          </p>
+          <h4
+            class="MuiTypography-root makeStyles-title-17 MuiTypography-h4"
+          >
+            5 Star Luxury Apartment
+          </h4>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            ______
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-normalText-18 MuiTypography-body1"
+          >
+            3 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-59 makeStyles-searchResultInfoBottom-13"
+        >
+          <div
+            class="MuiBox-root MuiBox-root-60 makeStyles-searchResultStars-14"
+          >
+            <svg
+              class="makeStyles-searchResultStar-15"
+              color="#ff7779"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(255, 119, 121);"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+              />
+            </svg>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              3.85
+            </p>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-61 makeStyles-searchResultsPrice-16"
+          >
+            <h3
+              class="MuiTypography-root MuiTypography-h3"
+            >
+              £90 / night
+            </h3>
+            <p
+              class="MuiTypography-root makeStyles-total-19 MuiTypography-body1"
+            >
+              £650 total
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

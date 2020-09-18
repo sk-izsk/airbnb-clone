@@ -23,14 +23,14 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
     height: theme.spacing(54),
   },
   exploreBtn: {
-    backgroundColor: '#ff7779',
-    color: 'white',
+    backgroundColor: theme.palette.primary.main,
+    color: theme.palette.secondary.main,
     textTransform: 'inherit',
     marginTop: theme.spacing(1.25),
     fontWeight: 600,
     '&:hover': {
-      backgroundColor: 'white',
-      color: '#ff7779',
+      backgroundColor: theme.palette.secondary.main,
+      color: theme.palette.primary.main,
     },
   },
   text: {
@@ -41,10 +41,10 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
     flexDirection: 'column',
   },
   bannerSearchButton: {
-    backgroundColor: 'white',
+    backgroundColor: theme.palette.secondary.main,
     fontWeight: 900,
     textTransform: 'inherit',
-    color: '#ff7779',
+    color: theme.palette.primary.main,
     '&:hover': {
       border: 'none',
     },

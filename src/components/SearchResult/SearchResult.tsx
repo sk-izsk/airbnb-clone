@@ -2,7 +2,7 @@ import { Box, makeStyles, Typography } from '@material-ui/core';
 import React from 'react';
 import { AiFillStar } from 'react-icons/ai';
 import { GrFavorite } from 'react-icons/gr';
-import { CustomTheme } from '../../theme/muiTheme';
+import { CustomTheme, theme } from '../../theme/muiTheme';
 
 export interface SearchResultProps {
   img?: string;
@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
     position: 'relative',
     margin: theme.spacing(2.5),
     padding: theme.spacing(2.5),
-    borderBottom: `1px solid lightgray`,
+    borderBottom: `1px solid ${theme.palette.grey[300]}`,
     cursor: 'pointer',
     '&:hover': {
       opacity: 0.8,
@@ -67,7 +67,7 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
   normalText: {
     marginTop: theme.spacing(1.25),
     fontSize: 13,
-    color: 'gray',
+    color: theme.palette.grey[400],
   },
   total: {
     textAlign: 'right',
@@ -91,7 +91,7 @@ const SearchResult: React.FC<SearchResultProps> = ({ description, img, location,
         </Box>
         <Box className={classes.searchResultInfoBottom}>
           <Box className={classes.searchResultStars}>
-            <AiFillStar className={classes.searchResultStar} color='#ff7779' />
+            <AiFillStar className={classes.searchResultStar} color={theme.palette.primary.main} />
             <Typography>{star}</Typography>
           </Box>
           <Box className={classes.searchResultsPrice}>
