@@ -24,7 +24,7 @@ const Home: React.FC<HomeProps> = () => {
       <Banner />
       <Box className={classes.homeSection}>
         {cardData.map((card: CardData) => (
-          <Card {...card} />
+          <Card key={card.title} {...card} />
         ))}
       </Box>
     </Box>

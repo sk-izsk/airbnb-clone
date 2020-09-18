@@ -1,1 +1,1 @@
-export { cardData } from './data';
+export { cardData, searchButtonText, searchResultData } from './data';
