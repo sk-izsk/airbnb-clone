@@ -3,7 +3,7 @@ import React, { Suspense } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import { AppProvider } from './AppProvider';
 import { Footer, Header, LoadingScreen } from './components';
-import { HomeScreen } from './lazyComponents';
+import { HomeScreen, SearchPageScreen } from './lazyComponents';
 import { CustomTheme } from './theme/muiTheme';
 
 export interface AppProps {}
@@ -24,6 +24,7 @@ const App: React.FC<AppProps> = () => {
               <Redirect to='/home' />
             </Route>
             <Route path='/home' exact component={HomeScreen} />
+            <Route path='/search' exact component={SearchPageScreen} />
           </Suspense>
         </Switch>
         <Footer />

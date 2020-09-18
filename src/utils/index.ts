@@ -1,0 +1,1 @@
+export { cardData } from './data';
