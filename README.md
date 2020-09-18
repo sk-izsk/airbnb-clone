@@ -36,7 +36,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://izsk-fb.netlify.app)
+[![Product Name Screen Shot][product-screenshot]](https://airbnb-clone-496ef.web.app)
 
 I love coding specially on javascript/typescript. This is my small effort to show my skill and knowledge so far. As headline suggest I create this airbnb clone just out of my passion and 💕 React.
 
@@ -52,7 +52,6 @@ The Frontend of this build mainly on React along with some other important techn
 - [Material UI](https://material-ui.com)
 - [React-Icons](https://react-icons.github.io/react-icons/)
 - [Typescript](https://www.typescriptlang.org)
-- [Netlify(deploy)](https://www.netlify.com)
 - [Yarn](https://classic.yarnpkg.com/lang/en/)
 - [Prettier](https://prettier.io)
 - [Husky](https://github.com/typicode/husky)
@@ -62,8 +61,7 @@ The Frontend of this build mainly on React along with some other important techn
 
 The backend of this project (API) used from technology mention below
 
-- [Firebase](https://firebase.google.com)
-- [Google Auth](https://firebase.google.com)
+- [Firebase(deploy)](https://firebase.google.com)
 
 <!-- GETTING STARTED -->
 
