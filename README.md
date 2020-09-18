@@ -12,7 +12,7 @@
   <p align="center">
     Built in React with love and passion
     <br />
-    <a href="https://izsk-fb.netlify.app"><strong>Explore the website »</strong></a>
+    <a href="https://airbnb-clone-496ef.web.app"><strong>Explore the website »</strong></a>
     <br />
     <br />
   </p>
