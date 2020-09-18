@@ -1,5 +1,6 @@
 import { Box, Button, makeStyles, Typography } from '@material-ui/core';
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import { CustomTheme } from '../../theme/muiTheme';
 import { Search } from '../Search/Search';
 
@@ -52,6 +53,7 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
 
 const Banner: React.FC<BannerProps> = () => {
   const classes = useStyles();
+  const history = useHistory();
   const [showSearch, setShowSearch] = useState<boolean>(false);
 
   const handleDates = () => {
@@ -71,7 +73,7 @@ const Banner: React.FC<BannerProps> = () => {
         <Typography className={classes.text} variant='h5'>
           Plan a different kind of gateway to uncover the hidden gems near you
         </Typography>
-        <Button className={classes.exploreBtn} variant='outlined'>
+        <Button className={classes.exploreBtn} onClick={() => history.push('/search')} variant='outlined'>
           Explore Nearby
         </Button>
       </Box>
