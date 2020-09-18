@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root MuiBox-root-7 makeStyles-banner-1"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-8 makeStyles-bannerSearch-5"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-bannerSearchButton-6"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Search Dates
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiBox-root MuiBox-root-9 makeStyles-bannerInfo-2"
+    >
+      <h3
+        class="MuiTypography-root MuiTypography-h3"
+      >
+        Get out and stretch your imagination
+      </h3>
+      <h5
+        class="MuiTypography-root makeStyles-text-4 MuiTypography-h5"
+      >
+        Plan a different kind of gateway to uncover the hidden gems near you
+      </h5>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-exploreBtn-3"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Explore Nearby
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

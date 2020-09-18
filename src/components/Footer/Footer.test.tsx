@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import { App } from './App';
+import { Footer } from './Footer';
 
-test('App renders correctly', () => {
-  const { asFragment } = render(<App />);
+test('Footer renders correctly', () => {
+  const { asFragment } = render(<Footer />);
   expect(asFragment()).toMatchSnapshot();
 });
