@@ -1,32 +1,13 @@
 import { createMuiTheme, responsiveFontSizes, Theme } from '@material-ui/core';
 import { makeBorder } from './border';
 
-const colors: {
-  red: string;
-  redLight: string;
-  greyBorder: string;
-  darkBlue: string;
-  primaryPink: string;
-  secondaryPink: string;
-  pink: string;
-  yellow: string;
-  lighterYellow: string;
-  white: string;
-  blue: string;
-  green: string;
-} = {
-  red: '#E64D61',
-  redLight: '#FFD3D9',
-  greyBorder: '#CBCBCB',
-  darkBlue: '#1E1735',
-  primaryPink: '#E63647',
-  secondaryPink: '#F55752',
-  pink: '#FB5B91',
-  yellow: '#F2D535',
-  lighterYellow: '#EED66E',
-  white: '#EEFCF3',
-  blue: '#2196f3',
-  green: '#00B96F',
+const colors = {
+  primaryColor: '#ff7779',
+  secondaryColor: '#ffffff',
+  gray: '#808080',
+  lightGray: '#d3d3d3',
+  black: 'rgba(0, 0, 0, 0.75)',
+  secondaryGray: '#f7f7f7',
 };
 
 export interface CustomTheme extends Theme {
@@ -36,39 +17,25 @@ export interface CustomTheme extends Theme {
 let muiTheme: Theme = createMuiTheme({
   palette: {
     background: {
-      default: 'white',
+      default: colors.secondaryColor,
     },
-    error: {
-      light: colors.redLight,
-      main: colors.red,
-    },
-    info: {
-      main: colors.darkBlue,
-    },
+
     primary: {
-      main: colors.darkBlue,
-      light: colors.blue,
+      main: colors.primaryColor,
     },
     secondary: {
-      main: colors.primaryPink,
-      light: colors.secondaryPink,
+      main: colors.secondaryColor,
+      dark: colors.black,
     },
-    success: {
-      contrastText: colors.white,
-      main: colors.pink,
-      light: colors.green,
-    },
+
     text: {
       primary: '#4A4A4A',
-      secondary: colors.darkBlue,
     },
-    warning: {
-      contrastText: colors.white,
-      main: colors.yellow,
-      light: colors.lighterYellow,
-    },
+
     grey: {
-      400: colors.greyBorder,
+      400: colors.gray,
+      300: colors.lightGray,
+      200: colors.secondaryGray,
     },
   },
   props: {
@@ -82,7 +49,7 @@ let muiTheme: Theme = createMuiTheme({
   overrides: {
     MuiInputBase: {
       root: {
-        backgroundColor: colors.white,
+        backgroundColor: colors.secondaryColor,
       },
     },
   },

@@ -6,9 +6,9 @@ export interface FooterProps {}
 
 const useStyles = makeStyles((theme: CustomTheme) => ({
   footer: {
-    borderTop: `1px solid lightgray`,
+    borderTop: `1px solid ${theme.palette.grey[300]}`,
     padding: theme.spacing(2.5),
-    backgroundColor: '#f7f7f7',
+    backgroundColor: theme.palette.grey[200],
     textAlign: 'center',
   },
   text: {

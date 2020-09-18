@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme: CustomTheme) => ({
     margin: theme.spacing(1.25),
     borderRadius: 10,
     overflow: 'hidden',
-    boxShadow: `0px 6px 18px -9px rgba(0, 0, 0, 0.75)`,
+    boxShadow: `0px 6px 18px -9px ${theme.palette.secondary.dark}`,
     transition: `transform 100ms ease-in`,
     cursor: 'pointer',
     '&:hover': {
